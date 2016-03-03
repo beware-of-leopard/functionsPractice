@@ -101,7 +101,7 @@ function findLongestWord(words){
 // ---------------------
 
 function filterLongWords(words, i){
-    var filteredArray = words.filter(function(word){
+    var filteredArray = words.filter(function(word){ 
     	if (word.length > i){
     		return word;
     	}
@@ -114,8 +114,5 @@ function filterLongWords(words, i){
 // ---------------------
 
 function charFreq(string){
-
-	//break string into indidual arrays
-    //each character gets it's own object
-    //check if object already exists if(object){add to frequency property somehow}
+	//if there's time I'll work on this and the hard mode tomorrow
 }
